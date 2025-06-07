@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+*{
+	padding:0px;
+	margin:0px;
+}
+.holder {
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+
+.item {
+	background-color:red;
+	min-width:200px;
+	min-height:40px;
+	margin:5px;
+	text-align:center;
+	
+}
